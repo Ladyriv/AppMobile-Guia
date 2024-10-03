@@ -35,6 +35,7 @@ export function ThemedText({
 
 const styles = StyleSheet.create({
   default: {
+    fontFamily: 'Numans',
     fontSize: 16,
     lineHeight: 24,
   },
@@ -44,11 +45,13 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   title: {
-    fontSize: 32,
+    fontFamily: 'MergeOne',
+    fontSize: 42,
     fontWeight: 'bold',
-    lineHeight: 32,
+    lineHeight: 42,
   },
   subtitle: {
+    fontFamily: 'Numans',
     fontSize: 20,
     fontWeight: 'bold',
   },
